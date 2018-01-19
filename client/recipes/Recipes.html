@@ -1,0 +1,14 @@
+<template name="Recipes">
+
+    {{> NewRecipe }}
+
+
+    <section class="recipes">
+
+        {{#each recipes}}
+            {{> recipe}}
+        {{/each}}
+
+    </section>
+
+</template>
